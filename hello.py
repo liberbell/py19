@@ -8,6 +8,8 @@ def hello(name):
 
 # print(sys.getrecursionlimit())
 
+sys.setrecursionlimit(100)
+
 def increment(num):
     print(num, end = " ")
 
