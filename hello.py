@@ -14,3 +14,5 @@ def increment(num):
     increment(num + 1)
 
     return
+
+increment(1)
