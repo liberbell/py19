@@ -17,7 +17,7 @@ def increment(num):
 
     return
 
-increment(1)
+# increment(1)
 
 def decrement(num):
     while num > 0:
