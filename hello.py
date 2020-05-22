@@ -6,7 +6,7 @@ def hello(name):
 
 # hello("Ron")
 
-print(sys.getrecursionlimit())
+# print(sys.getrecursionlimit())
 
 def increment(num):
     print(num, end = " ")
