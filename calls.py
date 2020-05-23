@@ -20,4 +20,5 @@ def fibonacci(number, fib_series):
     fib_series.append(new_number)
     fibonacci(number - 1, fib_series)
 
-print(fibonacci(1, 20))
+series = [0, 1]
+print(fibonacci(4, series))
