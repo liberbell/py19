@@ -24,4 +24,11 @@ def decrement(num):
         print(num)
         num = num - 1
 
-decrement(50)
+# decrement(50)
+
+def decrement2(num):
+    if num == 0:
+        return
+
+    print(num)
+    decrement2(num - 1)
