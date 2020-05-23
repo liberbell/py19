@@ -41,4 +41,4 @@ def recursive_sum(num):
 
     result = num + recursive_sum(num - 1)
     return result
-recursive_sum(10)
+print(recursive_sum(10))
