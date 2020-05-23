@@ -10,7 +10,7 @@ def factorial(number):
 
 # print(factorial(10))
 
-def fibonacci(number):
+def fibonacci(number, fib_series):
     if number < 2:
         return
 
@@ -19,3 +19,5 @@ def fibonacci(number):
     new_number = fib_series[l - 1] + fib_series[l - 2]
     fib_series.append(new_number)
     fibonacci(number - 1, fib_series)
+
+print(fibonacci(10, 20))
