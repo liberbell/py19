@@ -7,3 +7,5 @@ def factorial(number):
         return 1
 
     return number * factorial(number - 1)
+
+factorial(3)
