@@ -32,3 +32,5 @@ def decrement2(num):
 
     print(num)
     decrement2(num - 1)
+
+decrement2(50)
