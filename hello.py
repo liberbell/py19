@@ -33,4 +33,12 @@ def decrement2(num):
     print(num)
     decrement2(num - 1)
 
-decrement2(50)
+# decrement2(50)
+
+def recursive_sum(num):
+    if num == 0:
+        return 0
+
+    result = num + recursive_sum(num - 1)
+    return result
+recursive_sum(10)
