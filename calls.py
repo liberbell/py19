@@ -36,5 +36,5 @@ def fibonacci2(number, fib_series):
     fibonacci2(number - 1, fib_series)
 
 series = [0, 1]
-print(fibonacci(10, series))
+print(fibonacci2(10, series))
 # print(series)
