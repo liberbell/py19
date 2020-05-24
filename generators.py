@@ -12,5 +12,8 @@ g = geterate_even_numbers(7)
 # print(l)
 
 def geterate_squares(limit):
-    for i in range(0, limit, 2):
+    for i in range(0, limit):
         yield i ** 2
+
+print(next(g))
+print(next(g))
