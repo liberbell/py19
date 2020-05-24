@@ -32,4 +32,9 @@ def fibonacci2(number, fib_series):
 
     new_number = fib_series[l - 1] + fib_series[l - 2]
     fib_series.append(new_number)
+    print("Series so far ", fib_series)
     fibonacci2(number - 1, fib_series)
+
+series = [0, 1]
+print(fibonacci(10, series))
+# print(series)
