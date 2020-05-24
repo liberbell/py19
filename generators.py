@@ -15,5 +15,6 @@ def geterate_squares(limit):
     for i in range(0, limit):
         yield i ** 2
 
-print(next(g))
-print(next(g))
+gen = generate_squares(10)
+print(next(gen))
+print(next(gen))
