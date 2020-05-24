@@ -11,7 +11,7 @@ g = geterate_even_numbers(7)
 # l = list(g)
 # print(l)
 
-def geterate_squares(limit):
+def generate_squares(limit):
     for i in range(0, limit):
         yield i ** 2
 
