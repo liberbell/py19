@@ -4,3 +4,5 @@ def geterate_even_numbers(limit):
 
 g = geterate_even_numbers(7)
 print(next(g))
+print(next(g))
+print(next(g))
