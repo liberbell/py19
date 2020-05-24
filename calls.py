@@ -20,6 +20,16 @@ def fibonacci(number, fib_series):
     fib_series.append(new_number)
     fibonacci(number - 1, fib_series)
 
-series = [0, 1]
-print(fibonacci(10, series))
-print(series)
+# series = [0, 1]
+# print(fibonacci(10, series))
+# print(series)
+
+def fibonacci2(number, fib_series):
+    if number < 2:
+        return
+
+    l = len(fib_series)
+
+    new_number = fib_series[l - 1] + fib_series[l - 2]
+    fib_series.append(new_number)
+    fibonacci2(number - 1, fib_series)
