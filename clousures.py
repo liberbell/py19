@@ -4,3 +4,5 @@ def nested_hello_fn():
         print("Hello Cathy!")
 
     hello()
+
+print(nested_hello_fn())
