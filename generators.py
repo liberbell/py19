@@ -16,7 +16,10 @@ def generate_squares(limit):
         yield i ** 2
 
 gen = generate_squares(10)
-print(next(gen))
-print(next(gen))
-print(next(gen))
-print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+# print(next(gen))
+
+square_list = list(generate_squares(10))
+print(square_list)
