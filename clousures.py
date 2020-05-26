@@ -8,5 +8,7 @@ def nested_hello_fn():
 print(nested_hello_fn())
 
 hello_fn = nested_hello_fn()
-print(hello_fn)
-hello_fn
+# print(hello_fn())
+hello_fn()
+
+# def 
