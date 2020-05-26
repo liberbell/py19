@@ -29,3 +29,6 @@ def generate_powers_of_two():
     while True:
         num = num + 1
         yield 2 ** num
+
+gen2 = generate_powers_of_two()
+print(next(gen2))
