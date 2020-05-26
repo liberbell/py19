@@ -6,3 +6,6 @@ def nested_hello_fn():
     hello()
 
 print(nested_hello_fn())
+
+hello_fn = nested_hello_fn()
+print(hello_fn)
