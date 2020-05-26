@@ -31,7 +31,15 @@ def generate_powers_of_two():
         yield 2 ** num
 
 gen2 = generate_powers_of_two()
-print(next(gen2))
-print(next(gen2))
-print(next(gen2))
-print(next(gen2))
+# print(next(gen2))
+# print(next(gen2))
+# print(next(gen2))
+# print(next(gen2))
+
+count = 0
+for p in gen2:
+    print(p)
+
+    count = count + 1
+    if count > 10:
+        break
