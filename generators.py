@@ -32,3 +32,6 @@ def generate_powers_of_two():
 
 gen2 = generate_powers_of_two()
 print(next(gen2))
+print(next(gen2))
+print(next(gen2))
+print(next(gen2))
