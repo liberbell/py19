@@ -18,3 +18,5 @@ def generate_squares(limit):
 gen = generate_squares(10)
 print(next(gen))
 print(next(gen))
+print(next(gen))
+print(next(gen))
