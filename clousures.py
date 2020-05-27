@@ -34,3 +34,6 @@ def greet_by_name(name):
 
 greet_fn = greet_by_name("sam")
 greet_fn()
+
+del greet_by_name
+greet_by_name("Sam")
