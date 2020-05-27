@@ -31,3 +31,5 @@ def greet_by_name(name):
         print(greeting_msg, name)
 
     return greeting
+
+greet_by_fn = gread_by_name(sam)
