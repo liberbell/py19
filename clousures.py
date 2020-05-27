@@ -1,3 +1,5 @@
+import random
+
 def nested_hello_fn():
 
     def hello():
@@ -35,5 +37,8 @@ def greet_by_name(name):
 greet_fn = greet_by_name("sam")
 greet_fn()
 
-del greet_by_name
-greet_by_name("Sam")
+# del greet_by_name
+# greet_by_name("Sam")
+
+def greet_with_personal_message(name, message):
+    anotations = ['-', '+', '*', ':', '^']
