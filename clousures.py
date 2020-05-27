@@ -32,4 +32,5 @@ def greet_by_name(name):
 
     return greeting
 
-greet_by_fn = greet_by_name("sam")
+greet_fn = greet_by_name("sam")
+greet_fn()
