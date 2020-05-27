@@ -19,4 +19,6 @@ def gread_hello_by_name(name):
 
     return hello
 
-print(gread_hello_by_name(sam)) 
+gread_hello_fn = gread_hello_by_name("sam")
+
+print(gread_hello_fn) 
