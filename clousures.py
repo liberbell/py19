@@ -5,10 +5,18 @@ def nested_hello_fn():
 
     hello()
 
-print(nested_hello_fn())
+# print(nested_hello_fn())
 
 hello_fn = nested_hello_fn()
 # print(hello_fn())
-hello_fn()
+# hello_fn()
 
-# def 
+def gread_hello_by_name(name):
+    def hello():
+        print("Hello!", name)
+
+    hello()
+
+    return hello
+
+ 
