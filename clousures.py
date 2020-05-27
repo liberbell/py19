@@ -19,4 +19,4 @@ def gread_hello_by_name(name):
 
     return hello
 
- 
+print(gread_hello_by_name(sam)) 
