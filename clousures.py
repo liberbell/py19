@@ -20,5 +20,5 @@ def gread_hello_by_name(name):
     return hello
 
 gread_hello_fn = gread_hello_by_name("sam")
-
+gread_hello_fn
 # print(gread_hello_fn) 
