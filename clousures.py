@@ -32,4 +32,4 @@ def greet_by_name(name):
 
     return greeting
 
-greet_by_fn = gread_by_name(sam)
+greet_by_fn = greet_by_name("sam")
