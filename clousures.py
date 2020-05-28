@@ -34,11 +34,17 @@ def greet_by_name(name):
 
     return greeting
 
-greet_fn = greet_by_name("sam")
-greet_fn()
+# greet_fn = greet_by_name("sam")
+# greet_fn()
 
 # del greet_by_name
 # greet_by_name("Sam")
 
 def greet_with_personal_message(name, message):
-    anotations = ['-', '+', '*', ':', '^']
+    annotations = ['-', '+', '*', ':', '^']
+    annotate = random.choice(annotations)
+
+    def greeting():
+        print(annotate * 50)
+        print(message, name)
+        print(annotate * 50)
