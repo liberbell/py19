@@ -48,3 +48,7 @@ def greet_with_personal_message(name, message):
         print(annotate * 50)
         print(message, name)
         print(annotate * 50)
+
+    return greeting
+
+greet_with_personal_message("Tonny", "Hello!")
