@@ -67,3 +67,6 @@ def enroll_in_college(college_name):
         print("Current status", student_list, end="\n\n")
 
     return enroll_student
+
+enroll_yail_fn = enroll_in_college("Yail")
+enroll_yail_fn()
