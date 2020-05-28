@@ -64,3 +64,6 @@ def enroll_in_college(college_name):
     def enroll_student(student_name):
         student_list.append(student_name)
         print("Student", student_name, "has been enrolled in", college_name)
+        print("Current status", student_list, end="\n\n")
+
+    return enroll_student
