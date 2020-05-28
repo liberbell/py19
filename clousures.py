@@ -69,4 +69,4 @@ def enroll_in_college(college_name):
     return enroll_student
 
 enroll_yail_fn = enroll_in_college("Yail")
-enroll_yail_fn()
+enroll_yail_fn("Sam")
