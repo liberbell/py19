@@ -51,4 +51,4 @@ def greet_with_personal_message(name, message):
 
     return greeting
 
-greet_with_personal_message("Tonny", "Hello!")
+greet_tonny_fn = greet_with_personal_message("Tonny", "Hello!")
