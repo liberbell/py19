@@ -42,10 +42,15 @@ def make_highlighted(func):
 
 # highlight_and_print_another_message = make_highlighted(print_another_message)
 
-@make_highlighted
-def print_a_third_message():
-    print("Now you`ll see how decorators are used")
+# @make_highlighted
+# def print_a_third_message():
+#     print("Now you`ll see how decorators are used")
 
-@make_highlighted
-def print_any_messages():
-    print("This is an important result that needs to be highlighted!")
+# @make_highlighted
+# def print_any_messages():
+#     print("This is an important result that needs to be highlighted!")
+
+def area_circle_fn(radius):
+    return math.pi * radius * radius
+
+area_circle_fn(10)
