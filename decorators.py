@@ -13,4 +13,7 @@ def highlight():
     print_message()
     print(annotate * 40)
 
-highlight()
+# highlight()
+
+def print_another_message():
+    print("Did you know? Decolaters use clousures.")
