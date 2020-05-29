@@ -38,3 +38,5 @@ def make_highlighted(func):
 
 highlight_and_print_message = make_highlighted(print_message)
 # highlight_and_print_message()
+
+highlight_and_print_another_message = make_highlighted(print_another_message)
