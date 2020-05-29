@@ -35,3 +35,6 @@ def make_highlighted(func):
 
 print_message()
 print_another_message()
+
+highlight_and_print_message = make_highlighted(print_message)
+highlight_and_print_message()
