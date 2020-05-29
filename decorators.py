@@ -42,6 +42,9 @@ highlight_and_print_message = make_highlighted(print_message)
 highlight_and_print_another_message = make_highlighted(print_another_message)
 
 @make_highlighted
-
 def print_a_third_message():
     print("Now you`ll see how decorators are used")
+
+@make_highlighted
+def print_any_messages():
+    print("This is an important result that needs to be highlighted!")
