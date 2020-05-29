@@ -17,3 +17,5 @@ def highlight():
 
 def print_another_message():
     print("Did you know? Decolaters use clousures.")
+
+highlight()
