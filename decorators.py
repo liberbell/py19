@@ -18,4 +18,17 @@ def highlight():
 def print_another_message():
     print("Did you know? Decolaters use clousures.")
 
-highlight()
+# highlight()
+
+def make_highlighted(func):
+    annotaitions = ["-", "+", "*", "^", ":"]
+    annotate = random.choice(annotaitions)
+
+    def highlight():
+        print(annotate * 40)
+
+        func()
+
+        print(annotate * 40)
+
+    highlight()  
