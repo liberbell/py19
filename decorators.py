@@ -33,4 +33,5 @@ def make_highlighted(func):
 
     highlight()
 
-make_highlighted()
+print_message()
+print_another_message()
