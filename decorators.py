@@ -53,4 +53,10 @@ def make_highlighted(func):
 def area_circle_fn(radius):
     return math.pi * radius * radius
 
+def perimeter_circle_fn(radius):
+    return 2 * math.pi * radius
+
+def diameter_circle_fn(radius):
+    return 2 * radius
+    
 print(area_circle_fn(10))
