@@ -31,4 +31,6 @@ def make_highlighted(func):
 
         print(annotate * 40)
 
-    highlight()  
+    highlight()
+
+make_highlighted()
