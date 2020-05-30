@@ -58,5 +58,6 @@ def perimeter_circle_fn(radius):
 
 def diameter_circle_fn(radius):
     return 2 * radius
-    
+
 print(area_circle_fn(10))
+print(area_circle_fn(5))
