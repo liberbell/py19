@@ -88,4 +88,5 @@ def area_circle_fn(radisu):
 def perimeter_circle_fn(radisu):
     return 2 * math.pi * radisu
 
-perimeter_circle_fn(3)
+print(perimeter_circle_fn(3))
+print(perimeter_circle_fn(-3))
