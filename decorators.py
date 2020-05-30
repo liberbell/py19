@@ -77,4 +77,13 @@ area_circle_safe = safe_calculate(area_circle_fn)
 # print(area_circle_safe(5))
 
 perimeter_circle_safe = safe_calculate(perimeter_circle_fn)
-perimeter_circle_safe(10)
+# print(perimeter_circle_safe(10))
+# print(perimeter_circle_safe(-10))
+
+@safe_calculate
+def area_circle_fn(radisu):
+    return math.pi * radisu * radisu
+
+@safe_calculate
+def perimeter_circl_fn(radisu):
+    return 2 * math.pi * radisu
