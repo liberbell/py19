@@ -61,3 +61,4 @@ def diameter_circle_fn(radius):
 
 print(area_circle_fn(10))
 print(area_circle_fn(5))
+print(area_circle_fn(-1))
