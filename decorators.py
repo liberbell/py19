@@ -90,3 +90,7 @@ def perimeter_circle_fn(radisu):
 
 print(perimeter_circle_fn(3))
 print(perimeter_circle_fn(-3))
+
+@safe_calculate
+def area_rectangle_fn(length, breadth):
+    return length * breadth
