@@ -80,22 +80,22 @@ def safe_calculate(func):
 # print(perimeter_circle_safe(10))
 # print(perimeter_circle_safe(-10))
 
-@safe_calculate
-def area_circle_fn(radisu):
-    return math.pi * radisu * radisu
+# @safe_calculate
+# def area_circle_fn(radisu):
+#     return math.pi * radisu * radisu
 
-@safe_calculate
-def perimeter_circle_fn(radisu):
-    return 2 * math.pi * radisu
+# @safe_calculate
+# def perimeter_circle_fn(radisu):
+#     return 2 * math.pi * radisu
 
-print(perimeter_circle_fn(3))
+# print(perimeter_circle_fn(3))
 # print(perimeter_circle_fn(-3))
 
-@safe_calculate
-def area_rectangle_fn(length, breadth):
-    return length * breadth
+# @safe_calculate
+# def area_rectangle_fn(length, breadth):
+#     return length * breadth
 
-area_rectangle_fn(4, 5)
+# area_rectangle_fn(4, 5)
 
 def safe_calculate_all(func):
     def calculate(**args):
@@ -105,3 +105,11 @@ def safe_calculate_all(func):
 
         return func(*args)
     return calculate
+
+@safe_calculate_all
+def area_rectangle_fn(length, breadth):
+    return length * breadth
+
+@safe_calculate_all
+def perimeter_rectangle_fn(length, breadth):
+    return 2 * (length + breadth)
