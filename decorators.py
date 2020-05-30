@@ -59,6 +59,15 @@ def perimeter_circle_fn(radius):
 def diameter_circle_fn(radius):
     return 2 * radius
 
-print(area_circle_fn(10))
-print(area_circle_fn(5))
-print(area_circle_fn(-1))
+# print(area_circle_fn(10))
+# print(area_circle_fn(5))
+# print(area_circle_fn(-1))
+
+def safe_calculate(func):
+    def calculate(r):
+        if r <= 0:
+            raise ValueError("Radius cannot be negative or zero")
+
+        return func(r)
+
+    return calculate
