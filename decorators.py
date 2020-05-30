@@ -71,3 +71,7 @@ def safe_calculate(func):
         return func(r)
 
     return calculate
+
+area_circle_safe = safe_calculate(area_circle_fn)
+print(area_circle_safe(-1))
+print(area_circle_safe(5))
