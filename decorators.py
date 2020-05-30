@@ -115,3 +115,7 @@ def perimeter_rectangle_fn(length, breadth):
     return 2 * (length + breadth)
 
 print(area_rectangle_fn(4, 5))
+# print(area_rectangle_fn(5, -4))
+
+print(perimeter_rectangle_fn(5, 4))
+print(perimeter_rectangle_fn(-5, 4))
