@@ -98,7 +98,7 @@ def safe_calculate(func):
 # area_rectangle_fn(4, 5)
 
 def safe_calculate_all(func):
-    def calculate(**args):
+    def calculate(*args):
         for arg in args:
             if arg <= 0:
                 raise ValueError("Argument cannot be negative or zero")
@@ -113,3 +113,5 @@ def area_rectangle_fn(length, breadth):
 @safe_calculate_all
 def perimeter_rectangle_fn(length, breadth):
     return 2 * (length + breadth)
+
+print(area_rectangle_fn(4, 5))
