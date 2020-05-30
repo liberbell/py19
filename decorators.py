@@ -89,8 +89,19 @@ def perimeter_circle_fn(radisu):
     return 2 * math.pi * radisu
 
 print(perimeter_circle_fn(3))
-print(perimeter_circle_fn(-3))
+# print(perimeter_circle_fn(-3))
 
 @safe_calculate
 def area_rectangle_fn(length, breadth):
     return length * breadth
+
+area_rectangle_fn(4, 5)
+
+def safe_calculate_all(func):
+    def calculate(**args):
+        for arg in args:
+            if arg <= 0:
+                raise ValueError("Argument cannot be negative or zero")
+
+        return func(*args)
+    return calculate
