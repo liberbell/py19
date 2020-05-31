@@ -2,8 +2,8 @@ def astarisk_highlight(func):
     def highlight():
         print("*" * 50)
 
-        furc()
+        func()
 
         print("*" * 50)
 
-    return highlightß
+    return highlight
