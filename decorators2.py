@@ -22,4 +22,11 @@ def plus_highlight(func):
 def print_message_one():
     print("Yoohoo, Decorators are cool!")
 
+# print_message_one()
+
+@plus_highlight
+@astarisk_highlight
+def print_message_one():
+    print("Yoohoo, Decorators are cool!")
+
 print_message_one()
